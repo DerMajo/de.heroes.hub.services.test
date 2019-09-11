@@ -1,0 +1,8 @@
+# exposed ports
+ports:
+- port: 8080
+  onOpen: open-browser
+# start up tasks
+tasks:
+- init: ./mvn package -DskipTests
+  command: java -jar test-service/test-service-impl/target/test-service-gitpod-spring-boot.jar

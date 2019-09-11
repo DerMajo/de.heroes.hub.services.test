@@ -11,14 +11,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>test-service-impl</artifactId>
-    <name>huss-test-service</name>
+    <name>test-service-implementation</name>
 
     <dependencies>
-        <dependency>
+        <!--<dependency>
             <groupId>de.heroes.hub.microservice</groupId>
             <artifactId>test-service-api</artifactId>
             <version>1.0-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
@@ -27,7 +27,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>de.huss.microservice.export.main.MainClass</mainClass>
+                    <mainClass>de.heroes.hub.microservice.test.main.MainClass</mainClass>
                     <executable>true</executable>
                     <finalName>${project.name}-${assemblyName}-spring-boot</finalName>
                     <addResources>true</addResources>

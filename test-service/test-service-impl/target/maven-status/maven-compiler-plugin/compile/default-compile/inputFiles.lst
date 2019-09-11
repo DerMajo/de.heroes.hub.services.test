@@ -1,0 +1,5 @@
+/workspace/de.heroes.hub.microservice.test/test-service/test-service-impl/src/main/java/de/heroes/hub/microservice/test/rest/TestRestfulService.java
+/workspace/de.heroes.hub.microservice.test/test-service/test-service-impl/src/main/java/de/heroes/hub/microservice/test/rest/item/GreetingResponseItem.java
+/workspace/de.heroes.hub.microservice.test/test-service/test-service-impl/src/main/java/de/heroes/hub/microservice/test/main/MainClass.java
+/workspace/de.heroes.hub.microservice.test/test-service/test-service-impl/src/main/java/de/heroes/hub/microservice/test/config/SwaggerConfig.java
+/workspace/de.heroes.hub.microservice.test/test-service/test-service-impl/src/main/java/de/heroes/hub/microservice/test/config/WebSecurityConfig.java
