@@ -1,4 +1,4 @@
-package de.heroes.hub.services.test.main;
+package de.heroes.hub.microservice.test.main;
 
 import java.io.IOException;
 
@@ -9,12 +9,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-@ComponentScan(value = "de.heroes.hub.services.test")
+@ComponentScan(value = "de.heroes.hub.microservice.test")
 @EnableAspectJAutoProxy
 public class MainClass {
 
     public static void main(String[] args) throws IOException {
-        SpringApplication springApplication = new SpringApplication(MainClass.class);
-        ConfigurableApplicationContext context = springApplication.run(args);
+        SpringApplication.run(MainClass.class, args);
     }
 }

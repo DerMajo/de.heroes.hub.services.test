@@ -1,1 +1,0 @@
-package de.heroes.hub.services.test.main;
