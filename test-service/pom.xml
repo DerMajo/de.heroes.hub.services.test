@@ -19,8 +19,4 @@
         <module>test-service-api</module>
         <module>test-service-impl</module>
     </modules>
-
-    <dependencies>
-
-    </dependencies>
 </project>

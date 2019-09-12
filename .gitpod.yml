@@ -5,4 +5,4 @@ ports:
 # start up tasks
 tasks:
 - init: ./mvn package -DskipTests
-  command: java -jar test-service/test-service-impl/target/test-service-gitpod-spring-boot.jar
+  command: java -jar test-service/test-service-impl/target/test-service-impl-gitpod-spring-boot.jar
