@@ -1,11 +1,11 @@
-package de.heroes.hub.microservice.test.rest.item;
+package de.heroes.hub.microservice.test.response;
 
-public class GreetingResponseItem {
+public class GreetingResponse {
 
     private final long id;
     private final String content;
 
-    public GreetingResponseItem(long id, String content) {
+    public GreetingResponse(long id, String content) {
         this.id = id;
         this.content = content;
     }

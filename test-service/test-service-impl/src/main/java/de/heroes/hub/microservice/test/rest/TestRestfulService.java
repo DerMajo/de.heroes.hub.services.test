@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import de.heroes.hub.microservice.test.response.GreetingResponseItem;
+import de.heroes.hub.microservice.test.response.GreetingResponse;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -21,8 +21,8 @@ public class TestRestfulService {
 
     @RequestMapping("/greeting")
     @ApiOperation(value = "hello world", position = 1)
-    public GreetingResponseItem greeting(@RequestParam(value="name", defaultValue="World") String name) {
-        return new GreetingResponseItem(
+    public GreetingResponse greeting(@RequestParam(value="name", defaultValue="World") String name) {
+        return new GreetingResponse(
             counter.incrementAndGet(),
             String.format(template, name));
     }
