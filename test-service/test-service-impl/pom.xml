@@ -13,6 +13,10 @@
     <artifactId>test-service-impl</artifactId>
     <name>test-service-impl</name>
 
+    <properties>
+        <start-class>de.heroes.hub.microservice.test.main.MainClass</start-class>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>de.heroes.hub.microservice</groupId>
