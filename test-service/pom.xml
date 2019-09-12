@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!--<module>test-service-api</module>-->
+        <module>test-service-api</module>
         <module>test-service-impl</module>
     </modules>
 
